@@ -1,0 +1,153 @@
+body,
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    font-family: calibri;
+    user-select: none;
+}
+
+.container {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 350px;
+    height: 350px;
+    display: none;
+    
+    
+  
+}
+label {
+    font-size: 1.2em;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 10px;
+}
+        
+input {
+    padding: 10px;
+    width: 250px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+        
+input:focus {
+    outline: none;
+    border-color: #fb7304;
+}
+        
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #fb7304b5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+        
+button:hover {
+     background-color: #fb73049a;
+}
+
+
+#callsignpage {
+    display: none;
+    position: absolute;
+    width: 322px;
+    height: 100%;
+    background-color: #434343;
+}
+
+.in {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.op-content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 321px;
+    height: 100%;
+    background-color: #1d1d1dd9;
+    overflow: auto;
+
+}
+
+.bar {
+    height: 100%;
+
+    border-left: 2px solid #fb7304;
+}
+
+.bar ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.bar ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    color: white;
+    width: 100%;
+    height: 30px;
+    background-color: #fb7304;
+}
+
+.bar .list ul li svg {
+
+    color: rgb(255, 255, 255);
+}
+
+.officer {
+    margin-bottom: 2px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    border: 1px solid #fb7304;
+    padding: 4px;
+    border-radius: 5px;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+}
+
+.officer span {
+
+
+    margin-right: 2px;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #7e3900;
+    border-radius: 6px;
+}
+
